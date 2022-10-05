@@ -1,0 +1,147 @@
+.imgLogo {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.orangeColor {
+    color: #FFAC7D;
+}
+
+.sideNavBar {
+    height: 950px;
+    width: 209px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 24px 12px 24px 12px;
+    /* Frame 356 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 12px;
+    gap: 10px;
+
+    width: 209px;
+    height: 950px;
+
+    background: #FFFFFF;
+    /* #EDEDED */
+
+    border-right: 1px solid #EDEDED;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header {
+    height: 60px;
+    font-family: 'Noto Sans JP';
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 14px 24px 14px 24px;
+
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-bottom: 1px solid #EDEDED;
+    /* #EDEDED */
+
+    border-bottom: 1px solid #EDEDED;
+
+}
+
+.header .userNameHeader {
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #58462F;
+}
+
+.header .nameHeader {
+    /* みつばち */
+    width: 63.52px;
+    height: 16px;
+
+    color: #1A1311;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-weight: 900;
+}
+
+#sideBar {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 12px;
+    gap: 10px;
+
+    width: 209px;
+    height: 100%;
+
+    background: #FFFFFF;
+    /* #EDEDED */
+
+    border-right: 1px solid #EDEDED;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #838297;
+}
+
+#sideBar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#sideBar .pro-icon-wrapper {
+    margin-right: 17.67px;
+}
+
+#sideBar .pro-inner-item {
+    height: 36px;
+    width: 186px;
+    left: 0px;
+    top: 184px;
+    border-radius: 4px;
+    padding: 6px 21px 6px 21px;
+
+}
+
+#sideBar .pro-menu-item :hover {
+    background-color: #FFF4ED;
+    color: #F8601B;
+}
+
+#content {
+    background-color: #FFF4ED;
+    width: 100%;
+    height: 100vh;
+}
