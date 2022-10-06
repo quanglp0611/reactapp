@@ -1,0 +1,24 @@
+.card-pr {
+    background-color: #FFFFFF;
+}
+
+.card-header-pr {
+    border-bottom: 2px dashed #F8601B;
+    border-top: 4px solid #F8601B;
+    border-radius: 4px;
+    padding: 18px 24px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.page-title-pr {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    /* Text color/#F8601B */
+    color: #F8601B;
+}

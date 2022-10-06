@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './header';
-import SideNavBar from './sideNav';
-import Content from './content';
+import Header from './block/header/header';
+import SideBar from './block/sidebar/sideBar';
+import Content from './block/content/content';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="d-flex">
-        <SideNavBar />
+        <SideBar />
         <Content />
       </div>
     </div>

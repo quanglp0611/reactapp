@@ -1,5 +1,5 @@
-import beeLogo from './beelogo.png';
-import './custom.css';
+import beeLogo from '../../beelogo.png';
+import './header.css';
 import { FaUserCircle, FaChevronDown } from 'react-icons/fa';
 
 function Header() {
