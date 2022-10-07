@@ -33,3 +33,71 @@
 .text-muted-pr {
     color: #838297;
 }
+
+.light-orange-button {
+    background: #FFE3C9;
+    /* Text color/#464646 */
+
+    border: 1px solid #463529;
+    box-shadow: 4px 6px 0px #D8BFB7;
+    border-radius: 4px;
+    align-items: center;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #463529;
+    letter-spacing: -0.28px;
+}
+
+.yellow-button {
+    align-items: center;
+    background: #FCCA0D;
+    /* Text color/#464646 */
+
+    border: 1px solid #463529;
+    /* Drop Shadow - button */
+
+    box-shadow: 4px 6px 0px #D8BFB7;
+    border-radius: 4px;
+    color: #463529;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.2800000011920929px;
+}
+
+.orange-button {
+    background: #F8601B;
+    /* Text color/#F8601B */
+
+    border: 1px solid #F8601B;
+    /* Drop Shadow - button */
+
+    box-shadow: 4px 6px 0px #D8BFB7;
+    border-radius: 4px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+}
+
+.text-orange {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.28px;
+
+    /* Text color/#F8601B */
+
+    color: #F8601B;
+}

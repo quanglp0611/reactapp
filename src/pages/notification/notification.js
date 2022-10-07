@@ -2,7 +2,7 @@ import './notification.css';
 
 function Notification() {
     return (
-        <h1>Day la Notification(MH4)</h1>
+        <h1>Notification(MH4)</h1>
     )
 }
 

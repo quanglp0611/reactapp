@@ -2,6 +2,7 @@ import './top.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import TopBill from './top-bill/top-bill';
+import TopTable from './top-table/top-table';
 
 function Top() {
     return (
@@ -22,7 +23,7 @@ function Top() {
                                     <TopBill />
                                 </Col>
                                 <Col className="mr-2 top-body-right">
-
+                                    <TopTable />
                                 </Col>
                             </Row>
                         </div>

@@ -1,7 +1,9 @@
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 import { RiMoneyCnyCircleFill } from 'react-icons/ri';
 
 export default function TopBill() {
-    var totalBill = 999999;
+    const [totalBill, setTotalBill] = useState(999999);
 
     return (
         <div>
@@ -16,6 +18,17 @@ export default function TopBill() {
                 <span className='text-muted-pr top-text-tax'>
                     （税込）
                 </span>
+            </div>
+            <div className='top-bill-gr-button'>
+                <Button className="light-orange-button">
+                    明細を確認する
+                </Button>
+                <Button className="yellow-button">
+                    グラフで確認する
+                </Button>
+                <Button className="orange-button top-bill-large-button">
+                    契約情報を確認する
+                </Button>
             </div>
         </div>
     )
