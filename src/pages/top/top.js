@@ -1,7 +1,7 @@
 import './top.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import TopBill from './top-bill/top-bill';
 
 function Top() {
     return (
@@ -15,6 +15,16 @@ function Top() {
                                     料金
                                 </h5>
                             </div>
+                        </div>
+                        <div className="top-body" >
+                            <Row className="h-100">
+                                <Col className="mr-2 top-body-left">
+                                    <TopBill />
+                                </Col>
+                                <Col className="mr-2 top-body-right">
+
+                                </Col>
+                            </Row>
                         </div>
                     </div>
                 </Col>
@@ -30,7 +40,7 @@ function Top() {
                     </div>
                 </Col>
             </Row>
-        </div>
+        </div >
     )
 }
 

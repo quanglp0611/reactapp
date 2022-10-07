@@ -1,4 +1,4 @@
-.header {
+#header {
     height: 60px;
     font-family: 'Noto Sans JP';
     left: 0px;
@@ -16,8 +16,8 @@
 
 }
 
-.header .userNameHeader {
-    font-family: Noto Sans JP;
+#header .userNameHeader {
+    font-family: 'Noto Sans JP';
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -27,7 +27,7 @@
     margin-left: 16px;
 }
 
-.header .nameHeader {
+#header .nameHeader {
     /* みつばち */
     width: 63.52px;
     height: 16px;
@@ -46,4 +46,8 @@
     width: 18px;
     height: 18px;
     margin-right: 6px;
+}
+
+.header-right {
+    cursor: pointer;
 }

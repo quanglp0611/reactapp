@@ -22,3 +22,14 @@
     /* Text color/#F8601B */
     color: #F8601B;
 }
+
+.text-orange {
+    color: #F8601B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-muted-pr {
+    color: #838297;
+}
